@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+header{
+    height: 7em;
+    background-color: aquamarine;
+}
+
+main{
+    height: calc(100Vh - 17em);
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: min(90%,27em);
+    width: min(90%, 27em);
+    background-color: aqua;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+section div{
+    background-color: beige;
+    border: black solid 1px;
+}
+
+footer{
+    height: 10em;
+    background-color: antiquewhite;
+}
