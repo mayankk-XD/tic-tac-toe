@@ -40,4 +40,19 @@ section div{
 footer{
     height: 10em;
     background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer div{
+    height: 6em;
+    width: 6em;
+    background-color: aquamarine;
+}
+
+button{
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
 }
